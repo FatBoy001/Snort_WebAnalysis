@@ -1,0 +1,35 @@
+.main{
+	width:80%;
+	margin:20px auto;
+}
+table{
+	border-spacing:2;
+	width:80%;
+}
+tr{
+	text-align:center;
+}
+th{
+	padding:10px;
+}
+table tbody tr:nth-child(odd){
+	background-color:#eee
+}
+table thead{
+	background-color:gray;
+	color:white;
+}
+table thead th:first-child{
+	border-radius:10px 0 0 0;
+	border:1px solid gray;
+}
+table thead th:last-child{
+	border-radius:0 10px 0 0;
+	border-right:1px solid gray;
+}
+table tbody tr:last-child tr:first-child{
+	border-radius:0 0 0 10px;
+}
+table tbody tr:last-child tr:last-child{
+	border-radius:0 0 10px 0;
+}
